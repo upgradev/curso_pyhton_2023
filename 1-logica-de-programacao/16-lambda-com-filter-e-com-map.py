@@ -4,9 +4,9 @@
 
 
 # Dada uma lista de palavras, retorne umanova lista contendo o comprimento de cada palavra
-# palavras = ["maça", "banana", "arroz", "abacate"]
-# comprimentos = list(map(lambda palavra: len(palavra), palavras))
-# print(comprimentos)
+palavras = ["maça", "banana", "arroz", "abacate"]
+comprimentos = list(map(lambda palavra: len(palavra), palavras))
+print(comprimentos)
 
 # lambda com map
 # dado uma lista de numeros, retorne uma nova lista onde cada número é elevado ao quadrado
