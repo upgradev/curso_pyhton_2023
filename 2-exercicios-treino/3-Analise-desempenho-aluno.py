@@ -33,3 +33,11 @@ elif media >= 5 and media < 7:
     print("Recuperação")
 else:
     print("Reprovado")
+
+contador = 0
+
+for nota in [nota1, nota2, nota3, nota4]:
+    if nota > media:
+        contador += 1
+
+print(f"Quantidade de notas acima da média é: {contador}")
